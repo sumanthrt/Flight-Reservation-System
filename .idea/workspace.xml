@@ -4,15 +4,15 @@
     <list default="true" id="e344960d-decd-4edd-9395-6e298dc66c15" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Flight Reservation System/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flight Reservation System/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Flight Reservation System/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flight Reservation System/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Flight Reservation System/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flight Reservation System/Flight.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Flight Reservation System/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flight Reservation System/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Flight Reservation System/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flight Reservation System/Passenger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Flight Reservation System/RegularTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flight Reservation System/RegularTicket.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Flight Reservation System/TouristTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Flight Reservation System/TouristTicket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contact.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegularTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegularTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TouristTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TouristTicket.java" afterDir="false" />
     </list>
@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638947382312</updated>
-      <workItem from="1638947384342" duration="3641000" />
+      <workItem from="1638947384342" duration="7359000" />
     </task>
     <servers />
   </component>
