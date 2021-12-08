@@ -22,7 +22,7 @@ public class RegularTicket extends Ticket {
     }
 
     public void deleteService(int index) {
-        serviceList.remove(index-1);
+        serviceList.remove(index - 1);
     }
 
     public void listService() {

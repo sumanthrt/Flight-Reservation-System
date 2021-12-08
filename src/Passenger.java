@@ -5,12 +5,24 @@ public class Passenger {
         private String name;
         private String phoneNumber;
         private String email;
+
+        public Contact(String name, String phoneNumber, String email) {
+            this.name = name;
+            this.phoneNumber = phoneNumber;
+            this.email = email;
+        }
     }
 
     private static class Address {// static nested class Address
         private String street;
         private String city;
         private String state;
+
+        public Address(String street, String city, String state) {
+            this.street = street;
+            this.city = city;
+            this.state = state;
+        }
     }
 
     private Contact contact;
@@ -20,12 +32,8 @@ public class Passenger {
     }
 
     public Passenger(String name, String phoneNumber, String email, String street, String city, String state) {
-        this.contact.name = name;
-        this.contact.phoneNumber = phoneNumber;
-        this.contact.email = email;
-        this.address.street = street;
-        this.address.city = city;
-        this.address.state = state;
+        this.contact = new Contact(name, phoneNumber, email);
+        this.address = new Address(street, city, state);
         ++idCounter;//incrementing id to ensure all ids are unique
     }
 

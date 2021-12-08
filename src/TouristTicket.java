@@ -23,15 +23,14 @@ public class TouristTicket extends Ticket {
     }
 
     public void addLocation(String location) {
-        if(touristLocation.size()<5) {
+        if (touristLocation.size() < 5) {
             touristLocation.add(location);
-        }
-        else
+        } else
             System.out.println("Maximum 5 locations selected");
     }
 
     public void deleteLocation(int index) {
-        touristLocation.remove(index-1);
+        touristLocation.remove(index - 1);
     }
 
     public void listLocation() {

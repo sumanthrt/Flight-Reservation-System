@@ -38,7 +38,7 @@ public class Flight {
         this.capacity = capacity;
     }
 
-    public static int getSeatsBooked(){
+    public static int getSeatsBooked() {
         return seatsBooked;
     }
 }
