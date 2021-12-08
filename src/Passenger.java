@@ -1,11 +1,13 @@
 public class Passenger {
     private static int idCounter = 0;//to assign unique ids to passengers
-    private static class Contact {
+
+    private static class Contact {// static nested class Contact
         private String name;
         private String phoneNumber;
         private String email;
     }
-    private static class Address {
+
+    private static class Address {// static nested class Address
         private String street;
         private String city;
         private String state;
@@ -24,7 +26,7 @@ public class Passenger {
         this.address.street = street;
         this.address.city = city;
         this.address.state = state;
-        ++idCounter;
+        ++idCounter;//incrementing id to ensure all ids are unique
     }
 
     public Contact getContact() {
@@ -43,7 +45,7 @@ public class Passenger {
         this.address = address;
     }
 
-    public static int getPassengerCount(){
+    public static int getPassengerCount() {
         return idCounter;
     }
 }

@@ -2,15 +2,16 @@ public class Flight {
     private String flightNumber;
     private String airline;
     private int capacity;
-    private int seatsBooked;//seats booked should be static since it is counting number of tickets sold
+    private static int seatsBooked = 0;//seats booked should be static since it is counting number of tickets sold
 
     public Flight() {//default constructor
     }
 
-    public Flight(String flightNumber, String airline, int capacity){//Parametrized Constructor
+    public Flight(String flightNumber, String airline, int capacity) {//Parametrized Constructor
         this.flightNumber = flightNumber;
         this.airline = airline;
         this.capacity = capacity;
+        ++seatsBooked;//incrementing seats booked when new seat is booked on flight
     }
 
     public String getFlightNumber() {
@@ -37,11 +38,7 @@ public class Flight {
         this.capacity = capacity;
     }
 
-    public int getSeatsBooked() {
+    public static int getSeatsBooked(){
         return seatsBooked;
-    }
-
-    public void setSeatsBooked(int seatsBooked) {
-        this.seatsBooked = seatsBooked;
     }
 }
