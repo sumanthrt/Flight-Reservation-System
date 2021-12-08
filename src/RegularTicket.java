@@ -8,6 +8,15 @@ public class RegularTicket extends Ticket {
     public RegularTicket() {//default constructor
     }
 
+    public RegularTicket(List<String> serviceList) {
+        this.serviceList = serviceList;
+    }
+
+    public RegularTicket(String pnr, String departure, String destination, String departureDateTime, String arrivalDateTime, Status status, int seatNumber, double duration, double price, Flight flight, Passenger passenger, List<String> serviceList) {
+        super(pnr, departure, destination, departureDateTime, arrivalDateTime, status, seatNumber, duration, price, flight, passenger);
+        this.serviceList = serviceList;
+    }
+
     public void addService(String service) {
         serviceList.add(service);
     }

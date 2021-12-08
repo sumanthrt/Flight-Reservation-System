@@ -10,6 +10,18 @@ public class TouristTicket extends Ticket {
 
     public TouristTicket() {//default constructor
     }
+
+    public TouristTicket(List<String> touristLocation, String hotelAddress) {
+        this.touristLocation = touristLocation;
+        this.hotelAddress = hotelAddress;
+    }
+
+    public TouristTicket(String pnr, String departure, String destination, String departureDateTime, String arrivalDateTime, Status status, int seatNumber, double duration, double price, Flight flight, Passenger passenger, List<String> touristLocation, String hotelAddress) {
+        super(pnr, departure, destination, departureDateTime, arrivalDateTime, status, seatNumber, duration, price, flight, passenger);
+        this.touristLocation = touristLocation;
+        this.hotelAddress = hotelAddress;
+    }
+
     public void addLocation(String location) {
         if(touristLocation.size()<5) {
             touristLocation.add(location);
